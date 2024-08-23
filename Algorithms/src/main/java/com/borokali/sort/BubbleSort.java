@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BubbleSort {
 
-    static void printArray(int arr[], int size)
+    public static void printArray(int arr[], int size)
     {
         int i;
         for (i = 0; i < size; i++)
@@ -22,7 +22,7 @@ public class BubbleSort {
         System.out.println("Sorted array: ");
         printArray(arr, n);
     }
-    static void bubbleSort(int arr[], int n)
+    public static void bubbleSort(int arr[], int n)
     {
         int i, j, temp;
         boolean swapped;
